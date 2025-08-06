@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sumur Bor Al-Maun - Jasa Pengeboran Sumur Profesional</title>
+
+  <!-- FAVICON -->
+  <link rel="icon" href="images/logo.jpg" type="image/svg+xml">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans">
+<!-- Navigation -->
+<nav class="bg-white shadow-lg fixed w-full top-0 z-50">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex justify-between items-center h-16">
+      <div class="flex items-center">
+        <!-- LOGO DI NAVBAR -->
+        <a href="#home" class="flex items-center space-x-2">
+          <img src="images/logo.jpg" alt="Logo Sumur Bor Al-Maun" class="h-9 w-9">
+          <span class="text-xl font-bold text-blue-600">Sumur Bor Al-Maun</span>
+        </a>
+      </div>
+
+      <!-- Desktop Menu -->
+      <div class="hidden md:block">
+        <div class="ml-10 flex items-baseline space-x-8">
+          <a href="#home" class="nav-link text-gray-700 hover:text-blue-600 px-3 py-2 font-medium transition-colors">Home</a>
+          <a href="#tentang" class="nav-link text-gray-700 hover:text-blue-600 px-3 py-2 font-medium transition-colors">Tentang</a>
+          <a href="#layanan" class="nav-link text-gray-700 hover:text-blue-600 px-3 py-2 font-medium transition-colors">Layanan</a>
+          <a href="#galeri" class="nav-link text-gray-700 hover:text-blue-600 px-3 py-2 font-medium transition-colors">Galeri</a>
+          <a href="#kontak" class="nav-link text-gray-700 hover:text-blue-600 px-3 py-2 font-medium transition-colors">Kontak</a>
+        </div>
+      </div>
+
+      <!-- Mobile menu button -->
+      <div class="md:hidden">
+        <button id="mobile-menu-btn" class="text-gray-700 hover:text-blue-600 focus:outline-none">
+          <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div id="mobile-menu" class="md:hidden hidden bg-white border-t">
+    <div class="px-2 pt-2 pb-3 space-y-1">
+      <a href="#home" class="mobile-nav-link block px-3 py-2 text-gray-700 hover:text-blue-600 font-medium">Home</a>
+      <a href="#tentang" class="mobile-nav-link block px-3 py-2 text-gray-700 hover:text-blue-600 font-medium">Tentang</a>
+      <a href="#layanan" class="mobile-nav-link block px-3 py-2 text-gray-700 hover:text-blue-600 font-medium">Layanan</a>
+      <a href="#galeri" class="mobile-nav-link block px-3 py-2 text-gray-700 hover:text-blue-600 font-medium">Galeri</a>
+      <a href="#kontak" class="mobile-nav-link block px-3 py-2 text-gray-700 hover:text-blue-600 font-medium">Kontak</a>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section id="home" class="hero-bg text-white pt-16">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+    <div class="text-center">
+      <h1 class="text-4xl md:text-6xl font-bold mb-6">Sumur Bor Al-Maun</h1>
+      <p class="text-xl md:text-2xl mb-8 text-blue-100">Spesialis Sumur Bor Teknologi Jet Pump & Submersible</p>
+      <p class="text-lg mb-10 max-w-3xl mx-auto text-blue-50">
+        Berpengalaman dalam pembuatan sumur bor berkualitas tinggi dengan teknologi terdepan.
+        Kami menghadirkan solusi air bersih yang efisien, hemat energi, dan terpercaya untuk kebutuhan rumah tangga maupun industri.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="#kontak" class="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-blue-50 transition-colors inline-block">
+          Konsultasi Gratis
+        </a>
+        <a href="https://wa.me/6282211227575" target="_blank" class="bg-green-500 text-white px-8 py-4 rounded-lg font-semibold hover:bg-green-600 transition-colors inline-block">
+          WhatsApp Kami
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Tentang Section -->
+<section id="tentang" class="py-20 bg-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-16">
+      <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Tentang Kami</h2>
+      <div class="w-24 h-1 bg-blue-600 mx-auto mb-8"></div>
+    </div>
+
+    <div class="grid lg:grid-cols-2 gap-12 items-center mb-16">
+      <div>
+        <h3 class="text-2xl font-semibold text-gray-800 mb-6">Mengapa Memilih Sumur Bor Al-Maun?</h3>
+        <p class="text-lg text-gray-600 mb-6 leading-relaxed">
+          Kami berfokus pada layanan pembuatan sumur bor dengan menggunakan teknologi jet pump dan submersible terdepan.
+          Dengan dedikasi tinggi terhadap kualitas dan kepuasan pelanggan, kami telah menjadi pilihan utama bagi mereka
+          yang mencari layanan pembuatan sumur bor berkualitas dan efisien.
+        </p>
+        <p class="text-gray-600 leading-relaxed">
+          Tim profesional kami memiliki pengalaman bertahun-tahun dalam industri pengeboran sumur,
+          memastikan setiap proyek diselesaikan dengan standar tertinggi dan hasil yang memuaskan.
+        </p>
+      </div>
+      <div class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-8">
+        <div class="text-center">
+          <div class="text-6xl mb-4">💧</div>
+          <h4 class="text-xl font-semibold text-gray-800 mb-4">Teknologi Terdepan</h4>
+          <p class="text-gray-600">Menggunakan peralatan modern dan teknologi terbaru untuk hasil optimal</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-12">
+      <!-- Visi -->
+      <div class="bg-gradient-to-br from-blue-600 to-blue-700 rounded-2xl p-8 text-white">
+        <div class="flex items-center mb-6">
+          <div class="bg-white bg-opacity-20 p-3 rounded-lg mr-4">
+            <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M10 12a2 2 0 100-4 2 2 0 000 4z"/>
+              <path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd"/>
+            </svg>
+          </div>
+          <h3 class="text-2xl font-bold">Visi Kami</h3>
+        </div>
+        <p class="text-blue-100 text-lg leading-relaxed">
+          Menyediakan layanan pembuatan sumur bor terbaik dengan menggunakan teknologi jet pump dan submersible,
+          menjadi perusahaan terdepan yang memberikan solusi air bersih berkualitas tinggi untuk seluruh Indonesia.
+        </p>
+      </div>
+
+      <!-- Misi -->
+      <div class="bg-white border-2 border-blue-200 rounded-2xl p-8">
+        <div class="flex items-center mb-6">
+          <div class="bg-blue-100 p-3 rounded-lg mr-4">
+            <svg class="w-8 h-8 text-blue-600" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"/>
+            </svg>
+          </div>
+          <h3 class="text-2xl font-bold text-gray-800">Misi Kami</h3>
+        </div>
+        <ul class="space-y-4 text-gray-600">
+          <li class="flex items-start">
+            <span class="text-blue-600 mr-3 mt-1">✓</span>
+            <span>Memberikan layanan pembuatan sumur bor yang berkualitas dan efisien</span>
+          </li>
+          <li class="flex items-start">
+            <span class="text-blue-600 mr-3 mt-1">✓</span>
+            <span>Menyediakan produk dan solusi yang inovatif dan berkualitas</span>
+          </li>
+          <li class="flex items-start">
+            <span class="text-blue-600 mr-3 mt-1">✓</span>
+            <span>Mengembangkan kemitraan yang erat dengan pelanggan dan mitra bisnis</span>
+          </li>
+          <li class="flex items-start">
+            <span class="text-blue-600 mr-3 mt-1">✓</span>
+            <span>Meningkatkan keterampilan dan profesionalisme karyawan</span>
+          </li>
+          <li class="flex items-start">
+            <span class="text-blue-600 mr-3 mt-1">✓</span>
+            <span>Memelihara lingkungan dan melakukan praktik bisnis yang bertanggung jawab</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Layanan Section -->
+<section id="layanan" class="section-bg py-20">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-16">
+      <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Layanan Utama</h2>
+      <div class="w-24 h-1 bg-blue-600 mx-auto mb-8"></div>
+      <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+        Kami menyediakan layanan pembuatan sumur bor yang berkualitas dan efisien dengan menggunakan teknologi jet pump dan submersible.
+        Kami memastikan bahwa setiap sumur bor yang kami buat memenuhi standar kualitas dan memiliki tingkat keandalan yang tinggi.
+      </p>
+    </div>
+
+    <div class="grid lg:grid-cols-3 gap-8">
+
+      <!-- Layanan 1: Pembuatan Sumur Bor -->
+      <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow border-t-4 border-blue-600">
+        <div class="text-center mb-6">
+          <!-- SVG Icon 1: Pembuatan Sumur Bor -->
+          <div class="w-24 h-24 mx-auto mb-4 flex justify-center items-end">
+            <svg viewBox="0 0 100 100" class="w-full h-full">
+              <defs>
+                <linearGradient id="grad-silver" x1="0%" y1="0%" x2="100%" y2="0%">
+                  <stop offset="0%" style="stop-color:#d1d5db;stop-opacity:1" />
+                  <stop offset="100%" style="stop-color:#9ca3af;stop-opacity:1" />
+                </linearGradient>
+              </defs>
+              <!-- Pompa Kiri -->
+              <rect x="25" y="30" width="12" height="50" fill="url(#grad-silver)"/>
+              <rect x="22" y="80" width="18" height="8" rx="2" fill="#3b82f6"/>
+              <rect x="25" y="22" width="12" height="8" fill="#3b82f6"/>
+              <rect x="27" y="35" width="8" height="6" fill="#9ca3af"/>
+              <rect x="27" y="45" width="8" height="6" fill="#9ca3af"/>
+              <rect x="27" y="55" width="8" height="6" fill="#9ca3af"/>
+
+              <!-- Pompa Kanan -->
+              <rect x="60" y="20" width="18" height="60" fill="url(#grad-silver)"/>
+              <rect x="57" y="80" width="24" height="10" rx="3" fill="#1e40af"/>
+              <rect x="60" y="14" width="18" height="6" fill="#1e40af"/>
+              <rect x="62" y="25" width="14" height="40" fill="#9ca3af"/>
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold text-gray-800">Pembuatan Sumur Bor</h3>
+          <p class="text-sm text-blue-600 font-medium">Submersible & Jet Pump</p>
+        </div>
+        <p class="text-gray-600 text-center">
+          Kami melayani pembuatan sumur bor dengan teknologi submersible yang hemat tempat, tidak bising dan hemat listrik.
+          Juga tersedia sistem jet pump yang lebih ekonomis sesuai kebutuhan Anda.
+        </p>
+      </div>
+
+      <!-- Layanan 2: Perawatan & Pemeliharaan -->
+      <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow border-t-4 border-green-600">
+        <div class="text-center mb-6">
+          <!-- SVG Icon 2: Perawatan -->
+          <div class="w-24 h-24 mx-auto mb-4">
+            <svg viewBox="0 0 100 100" class="w-full h-full">
+              <!-- Gear -->
+              <path d="M 50 10 A 40 40 0 0 1 50 90 A 40 40 0 0 1 50 10 Z M 50 20 A 30 30 0 0 0 50 80 A 30 30 0 0 0 50 20 Z" fill="#60a5fa"/>
+              <g transform="translate(50,50)">
+                <path d="M 0 -45 L 5 -38 L -5 -38 Z" fill="#60a5fa" transform="rotate(0)"/>
+                <path d="M 0 -45 L 5 -38 L -5 -38 Z" fill="#60a5fa" transform="rotate(45)"/>
+                <path d="M 0 -45 L 5 -38 L -5 -38 Z" fill="#60a5fa" transform="rotate(90)"/>
+                <path d="M 0 -45 L 5 -38 L -5 -38 Z" fill="#60a5fa" transform="rotate(135)"/>
+                <path d="M 0 -45 L 5 -38 L -5 -38 Z" fill="#60a5fa" transform="rotate(180)"/>
+                <path d="M 0 -45 L 5 -38 L -5 -38 Z" fill="#60a5fa" transform="rotate(225)"/>
+                <path d="M 0 -45 L 5 -38 L -5 -38 Z" fill="#60a5fa" transform="rotate(270)"/>
+                <path d="M 0 -45 L 5 -38 L -5 -38 Z" fill="#60a5fa" transform="rotate(315)"/>
+              </g>
+              <!-- Wrench -->
+              <g transform="rotate(-30, 50, 50)">
+                <rect x="25" y="46" width="50" height="8" rx="2" fill="#d1d5db"/>
+                <path d="M 15 42 L 28 32 L 32 38 L 22 50 L 12 48 Z" fill="#d1d5db" />
+              </g>
+              <!-- Screwdriver -->
+              <g transform="rotate(30, 50, 50)">
+                <rect x="47" y="15" width="6" height="40" fill="#d1d5db"/>
+                <rect x="42" y="55" width="16" height="25" rx="4" fill="#f59e0b"/>
+                <rect x="47" y="12" width="6" height="3" fill="#9ca3af"/>
+              </g>
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold text-gray-800">Perawatan & Pemeliharaan</h3>
+          <p class="text-sm text-green-600 font-medium">Layanan Terpercaya</p>
+        </div>
+        <p class="text-gray-600 text-center">
+          Kami menawarkan layanan perawatan dan pemeliharaan sumur bor terpercaya untuk memastikan kualitas dan kehandalan sumber air Anda.
+        </p>
+      </div>
+
+      <!-- Layanan 3: Solusi & Konsultasi -->
+      <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow border-t-4 border-purple-600">
+        <div class="text-center mb-6">
+          <!-- SVG Icon 3: Konsultasi -->
+          <div class="w-24 h-24 mx-auto mb-4">
+            <svg viewBox="0 0 100 100" class="w-full h-full">
+              <!-- Gear Background -->
+              <path d="M 50 15 A 35 35 0 0 1 50 85 A 35 35 0 0 1 50 15 Z M 50 25 A 25 25 0 0 0 50 75 A 25 25 0 0 0 50 25 Z" fill="#e0e7ff"/>
+              <g transform="translate(50,50)">
+                <path d="M 0 -42 L 5 -35 L -5 -35 Z" fill="#e0e7ff" transform="rotate(22.5)"/>
+                <path d="M 0 -42 L 5 -35 L -5 -35 Z" fill="#e0e7ff" transform="rotate(67.5)"/>
+                <path d="M 0 -42 L 5 -35 L -5 -35 Z" fill="#e0e7ff" transform="rotate(112.5)"/>
+                <path d="M 0 -42 L 5 -35 L -5 -35 Z" fill="#e0e7ff" transform="rotate(157.5)"/>
+                <path d="M 0 -42 L 5 -35 L -5 -35 Z" fill="#e0e7ff" transform="rotate(202.5)"/>
+                <path d="M 0 -42 L 5 -35 L -5 -35 Z" fill="#e0e7ff" transform="rotate(247.5)"/>
+                <path d="M 0 -42 L 5 -35 L -5 -35 Z" fill="#e0e7ff" transform="rotate(292.5)"/>
+                <path d="M 0 -42 L 5 -35 L -5 -35 Z" fill="#e0e7ff" transform="rotate(337.5)"/>
+              </g>
+              <!-- Person -->
+              <circle cx="50" cy="42" r="12" fill="#4f46e5"/>
+              <path d="M 30 90 C 30 70, 70 70, 70 90 Z" fill="#4f46e5" />
+              <rect x="30" y="80" width="40" height="10" fill="#c7d2fe"/>
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold text-gray-800">Solusi & Konsultasi</h3>
+          <p class="text-sm text-purple-600 font-medium">Gratis & Profesional</p>
+        </div>
+        <p class="text-gray-600 text-center">
+          Kami menawarkan solusi dan konsultasi pembuatan sumur bor terbaik untuk membantu Anda menemukan sumber air bersih yang sesuai.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Galeri Section -->
+<section id="galeri" class="py-20 bg-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-16">
+      <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Galeri</h2>
+      <div class="w-24 h-1 bg-blue-600 mx-auto mb-8"></div>
+      <p class="text-lg text-gray-600 max-w-3xl mx-auto">
+        Berikut adalah beberapa proyek pembuatan sumur bor yang telah kami selesaikan.
+        Kami bangga dapat membantu pelanggan menemukan solusi pembuatan sumur bor yang sesuai dengan kebutuhan dan budget mereka.
+      </p>
+    </div>
+
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="bg-gray-100 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+        <div class="h-48 bg-gradient-to-br from-blue-400 to-blue-600 flex items-center justify-center">
+          <div class="text-center text-white">
+            <div class="text-4xl mb-2">🏗️</div>
+            <p class="font-semibold">Proses Pengeboran</p>
+          </div>
+        </div>
+        <div class="p-4">
+          <h3 class="font-semibold text-gray-800 mb-2">Pengeboran Sumur Residensial</h3>
+          <p class="text-sm text-gray-600">Proses pengeboran sumur untuk kompleks perumahan dengan kedalaman 80 meter</p>
+        </div>
+      </div>
+
+      <div class="bg-gray-100 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+        <div class="h-48 bg-gradient-to-br from-green-400 to-green-600 flex items-center justify-center">
+          <div class="text-center text-white">
+            <div class="text-4xl mb-2">💧</div>
+            <p class="font-semibold">Test Air Bersih</p>
+          </div>
+        </div>
+        <div class="p-4">
+          <h3 class="font-semibold text-gray-800 mb-2">Hasil Test Kualitas Air</h3>
+          <p class="text-sm text-gray-600">Pengujian kualitas air sumur bor dengan hasil jernih dan layak konsumsi</p>
+        </div>
+      </div>
+
+      <div class="bg-gray-100 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+        <div class="h-48 bg-gradient-to-br from-purple-400 to-purple-600 flex items-center justify-center">
+          <div class="text-center text-white">
+            <div class="text-4xl mb-2">⚙️</div>
+            <p class="font-semibold">Instalasi Pompa</p>
+          </div>
+        </div>
+        <div class="p-4">
+          <h3 class="font-semibold text-gray-800 mb-2">Pemasangan Sistem Pompa</h3>
+          <p class="text-sm text-gray-600">Instalasi pompa submersible dengan sistem kontrol otomatis</p>
+        </div>
+      </div>
+
+      <div class="bg-gray-100 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+        <div class="h-48 bg-gradient-to-br from-orange-400 to-orange-600 flex items-center justify-center">
+          <div class="text-center text-white">
+            <div class="text-4xl mb-2">🏭</div>
+            <p class="font-semibold">Proyek Industri</p>
+          </div>
+        </div>
+        <div class="p-4">
+          <h3 class="font-semibold text-gray-800 mb-2">Sumur Bor Pabrik</h3>
+          <p class="text-sm text-gray-600">Pengeboran sumur untuk kebutuhan industri dengan debit 50 liter/menit</p>
+        </div>
+      </div>
+
+      <div class="bg-gray-100 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+        <div class="h-48 bg-gradient-to-br from-red-400 to-red-600 flex items-center justify-center">
+          <div class="text-center text-white">
+            <div class="text-4xl mb-2">🔧</div>
+            <p class="font-semibold">Maintenance</p>
+          </div>
+        </div>
+        <div class="p-4">
+          <h3 class="font-semibold text-gray-800 mb-2">Perawatan Sumur</h3>
+          <p class="text-sm text-gray-600">Layanan maintenance rutin untuk menjaga performa sumur bor</p>
+        </div>
+      </div>
+
+      <div class="bg-gray-100 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+        <div class="h-48 bg-gradient-to-br from-teal-400 to-teal-600 flex items-center justify-center">
+          <div class="text-center text-white">
+            <div class="text-4xl mb-2">✅</div>
+            <p class="font-semibold">Proyek Selesai</p>
+          </div>
+        </div>
+        <div class="p-4">
+          <h3 class="font-semibold text-gray-800 mb-2">Sumur Bor Siap Pakai</h3>
+          <p class="text-sm text-gray-600">Hasil akhir sumur bor lengkap dengan instalasi dan sistem distribusi</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Kontak Section -->
+<section id="kontak" class="section-bg py-20">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-16">
+      <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Hubungi Kami</h2>
+      <div class="w-24 h-1 bg-blue-600 mx-auto mb-8"></div>
+      <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+        Siap melayani kebutuhan sumur bor Anda dengan pelayanan terbaik dan harga kompetitif
+      </p>
+    </div>
+
+    <div class="grid lg:grid-cols-2 gap-12">
+      <!-- Contact Info -->
+      <div class="space-y-8">
+        <div class="bg-white rounded-xl shadow-lg p-8">
+          <h3 class="text-2xl font-semibold text-gray-800 mb-6">Informasi Kontak</h3>
+
+          <div class="space-y-6">
+            <!-- WhatsApp -->
+            <div class="flex items-start space-x-4">
+              <div class="bg-green-100 p-3 rounded-lg">
+                <svg class="w-6 h-6 text-green-600" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/>
+                </svg>
+              </div>
+              <div>
+                <h4 class="font-semibold text-gray-800">WhatsApp</h4>
+                <a href="https://wa.me/6282211227575" target="_blank" class="text-green-600 hover:text-green-700 font-medium">082211227575</a>
+              </div>
+            </div>
+
+            <!-- Telepon -->
+            <div class="flex items-start space-x-4">
+              <div class="bg-blue-100 p-3 rounded-lg">
+                <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+                </svg>
+              </div>
+              <div>
+                <h4 class="font-semibold text-gray-800">Telepon</h4>
+                <a href="tel:+6282211227575" class="text-blue-600 hover:text-blue-700 font-medium">082211227575</a><br>
+                <a href="tel:+6282116777722" class="text-blue-600 hover:text-blue-700 font-medium">082116777722</a>
+              </div>
+            </div>
+
+            <!-- Email -->
+            <div class="flex items-start space-x-4">
+              <div class="bg-blue-100 p-3 rounded-lg">
+                <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                </svg>
+              </div>
+              <div>
+                <h4 class="font-semibold text-gray-800">Email</h4>
+                <a href="mailto:sumurboralmaun@gmail.com" class="text-blue-600 hover:text-blue-700 font-medium">sumurboralmaun@gmail.com</a>
+              </div>
+            </div>
+
+            <!-- Alamat -->
+            <div class="flex items-start space-x-4">
+              <div class="bg-blue-100 p-3 rounded-lg">
+                <svg class="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                </svg>
+              </div>
+              <div>
+                <h4 class="font-semibold text-gray-800">Alamat Kami</h4>
+                <p class="text-gray-600">Kp Sukamanah RT 02 RW 12<br>Desa Nengkelan Kecamatan Ciwidey<br>Kabupaten Bandung Jawa Barat, 40973</p>
+                <a href="https://maps.app.goo.gl/vmoz65Dq8WkR9Njn6" target="_blank" class="text-blue-600 hover:text-blue-700 font-medium text-sm mt-2 inline-block">
+                  📍 Lihat di Google Maps
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Google Maps -->
+      <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+        <div class="p-6 border-b border-gray-200">
+          <h3 class="text-2xl font-semibold text-gray-800">Lokasi Kami</h3>
+          <p class="text-gray-600 mt-2">Kunjungi kantor kami untuk konsultasi langsung</p>
+        </div>
+        <div class="h-96">
+          <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.903525547494!2d107.523456!3d-6.90184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68f3e582e7a5d7%3A0x7d2e4b8559427429!2sSumur%20Bor%20Al-Maun!5e0!3m2!1sen!2sid!4v1678886400000!5m2!1sen!2sid"
+                  width="100%"
+                  height="100%"
+                  style="border:0;"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                  class="rounded-b-xl">
+          </iframe>
+        </div>
+        <div class="p-4 bg-gray-50">
+          <a href="https://maps.app.goo.gl/vmoz65Dq8WkR9Njn6" target="_blank" class="w-full bg-blue-600 text-white py-3 px-6 rounded-lg font-semibold hover:bg-blue-700 transition-colors inline-block text-center">
+            Buka di Google Maps
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-gray-800 text-white py-12">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid md:grid-cols-3 gap-8">
+      <div>
+        <!-- LOGO DI FOOTER -->
+        <div class="flex items-center mb-4 space-x-3">
+          <img src="images/logo.jpg" alt="Logo Sumur Bor Al-Maun" class="h-8 w-8">
+          <h3 class="text-xl font-bold">Sumur Bor Al-Maun</h3>
+        </div>
+        <p class="text-gray-300 mb-4">
+          Penyedia jasa pengeboran sumur terpercaya dengan pengalaman bertahun-tahun
+          dan teknologi modern untuk solusi air bersih Anda.
+        </p>
+      </div>
+
+      <div>
+        <h4 class="text-lg font-semibold mb-4">Layanan Utama</h4>
+        <ul class="space-y-2 text-gray-300">
+          <li><a href="#layanan" class="hover:text-white transition-colors">Pembuatan Sumur Bor Submersible</a></li>
+          <li><a href="#layanan" class="hover:text-white transition-colors">Pembuatan Sumur Bor Jet Pump</a></li>
+          <li><a href="#layanan" class="hover:text-white transition-colors">Perawatan & Pemeliharaan</a></li>
+          <li><a href="#layanan" class="hover:text-white transition-colors">Solusi & Konsultasi</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="text-lg font-semibold mb-4">Kontak Cepat</h4>
+        <ul class="space-y-2 text-gray-300">
+          <li>📞 082211227575</li>
+          <li>📞 082116777722</li>
+          <li>📧 sumurboralmaun@gmail.com</li>
+          <li>📍 Kp Sukamanah RT 02 RW 12, Ciwidey</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-300">
+      <p>&copy; 2024 Sumur Bor Al-Maun. Semua hak cipta dilindungi.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

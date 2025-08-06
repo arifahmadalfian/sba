@@ -1,0 +1,7 @@
+.hero-bg {
+    background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+}
+
+.section-bg {
+    background: linear-gradient(to bottom, #f8fafc, #e2e8f0);
+}
