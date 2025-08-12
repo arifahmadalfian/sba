@@ -1,7 +1,41 @@
-.hero-bg {
-    background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+/* Hero background slideshow layers */
+.hero-bg-layer {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    will-change: background-image;
+}
+
+/* Three backgrounds switched to real images (6, 5, 2) */
+.hero-slide-0 { background-image: url('images/gambar6.jpg'); }
+.hero-slide-1 { background-image: url('images/gambar5.jpg'); }
+.hero-slide-2 { background-image: url('images/gambar2.jpg'); }
+
+/* Optional dark overlay for text readability */
+.hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.28);
+}
+
+/* Glassy navbar when scrolled */
+.glass-nav {
+    background: rgba(255, 255, 255, 0.35) !important;
+    -webkit-backdrop-filter: saturate(160%) blur(10px);
+    backdrop-filter: saturate(160%) blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.06) !important;
+    transition: background-color 200ms ease, backdrop-filter 200ms ease, box-shadow 200ms ease;
 }
 
 .section-bg {
     background: linear-gradient(to bottom, #f8fafc, #e2e8f0);
+}
+
+/* Desktop: emphasize bottom-dominant area of hero background */
+@media (min-width: 1024px) {
+    .hero-bg-layer {
+        background-position: center bottom;
+    }
 }
