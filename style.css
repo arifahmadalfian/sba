@@ -38,4 +38,49 @@
     .hero-bg-layer {
         background-position: center bottom;
     }
+}/* Hapus background default Lightbox */
+.lb-nav a.lb-prev,
+.lb-nav a.lb-next,
+.lb-data .lb-close {
+    background: none !important;
+    opacity: 1 !important;
 }
+
+/* Tombol Next › */
+.lb-next:after {
+    content: '›';
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    text-shadow: 0 2px 8px rgba(0,0,0,0.7);
+    cursor: pointer;
+}
+
+/* Tombol Prev ‹ */
+.lb-prev:after {
+    content: '‹';
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    text-shadow: 0 2px 8px rgba(0,0,0,0.7);
+    cursor: pointer;
+}
+
+/* Tombol Close ✕ */
+.lb-close:after {
+    content: '✕';
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.7);
+    cursor: pointer;
+}
+
